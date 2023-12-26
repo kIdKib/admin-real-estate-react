@@ -5,12 +5,18 @@ import MiniCard from "../components/classic/MiniCard";
 
 import { FaArrowRight } from "react-icons/fa";
 
+import animal from '../assets/img/animal.jpg';
+
 
 
 const Blog = () => {
     return ( 
         <div>
-            <Header />
+            <Header 
+            image={animal}
+            first_line="Août, la saison où Korhogo vous dévoile" 
+            second_line="sa faune et sa flore au grand jour"
+            />
 
             <HeaderSection
             h4Title="Ce qu’il faut savoir"
@@ -36,16 +42,16 @@ const Blog = () => {
                             <div className="flex text-lg">
                                 <div className="w-[49%]">
                                     <ul>
-                                        <li className="flex items-center"><FaArrowRight className="mr-3"/>Sites touristiques</li>
-                                        <li className="flex items-center"><FaArrowRight className="mr-3"/>Activités en extérieure</li>
-                                        <li className="flex items-center"><FaArrowRight className="mr-3"/>Séjours et Spa</li>
+                                        <li className="flex items-center"><FaArrowRight className="mr-3 my-3"/>Sites touristiques</li>
+                                        <li className="flex items-center"><FaArrowRight className="mr-3 my-3"/>Activités en extérieure</li>
+                                        <li className="flex items-center"><FaArrowRight className="mr-3 my-3"/>Séjours et Spa</li>
                                     </ul>
                                 </div>
                                 <div className="w-[49%] ml-2">
                                     <ul>
-                                        <li className="flex items-center"><FaArrowRight className="mr-3"/>Sites touristiques</li>
-                                        <li className="flex items-center"><FaArrowRight className="mr-3"/>Activités en extérieure</li>
-                                        <li className="flex items-center"><FaArrowRight className="mr-3"/>Séjours et Spa</li>
+                                        <li className="flex items-center"><FaArrowRight className="mr-3 my-3"/>Sites touristiques</li>
+                                        <li className="flex items-center"><FaArrowRight className="mr-3 my-3"/>Activités en extérieure</li>
+                                        <li className="flex items-center"><FaArrowRight className="mr-3 my-3"/>Séjours et Spa</li>
                                     </ul>
                                 </div>
                             </div>
