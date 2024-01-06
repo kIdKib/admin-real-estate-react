@@ -6,6 +6,7 @@ import MiniCard from "../components/classic/MiniCard";
 import { FaArrowRight } from "react-icons/fa";
 
 import animal from '../assets/img/animal.jpg';
+import Footer from "../components/classic/Footer";
 
 
 
@@ -60,6 +61,8 @@ const Blog = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </div>
      );
 }

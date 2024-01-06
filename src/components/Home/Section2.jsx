@@ -7,7 +7,7 @@ import ImgCarouC from "./ImgCarouC";
 const Section2 = () => {
 
     return ( 
-        <div className="mb-[220px]">
+        <div className="mb-[150px]">
 
             <HeaderSection
             h4Title="Pour des séjours agréables"

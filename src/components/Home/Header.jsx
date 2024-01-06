@@ -1,4 +1,6 @@
+import { Link, NavLink } from 'react-router-dom';
 import balcony from '../../assets/img/balcony.jpg';
+
 
 
 const Header = () => {
@@ -14,16 +16,16 @@ const Header = () => {
                 <div>
                     <div className=' flex z-2 w-full bg-slate-100/25 py-6 px-10 rounded-lg'>
 
-                        <div className='w-[75%] flex items-center'>
+                        <div className='w-[65%] flex items-center'>
                             <h2>RésidenceMazika</h2>
                         </div>
 
-                        <div className='w-[35%] flex items-center justify-between' >
-                            <ul>Blalala</ul>
-                            <ul>Blalala</ul>
-                            <ul>Blalala</ul>
-                            <ul>Blalala</ul>
-                            <ul>Blalala</ul>
+                        <div className='w-[50%] flex items-center justify-between' >
+                            <NavLink to="/">Acceuil</NavLink>
+                            <ul>A propos de Mazika </ul>
+                            <ul>Nos chambres</ul>
+                            <NavLink to="/Blog">Découvrir Korhogo</NavLink>
+                            <NavLink to="/Contact">Contactez-nous</NavLink>
                         </div>
                     </div>
                 </div>

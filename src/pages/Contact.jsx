@@ -2,6 +2,7 @@ import Header from "../components/classic/Header";
 import HeaderSection from "../components/classic/HeaderSection";
 
 import empty from "../assets/img/empty.jpg"
+import Footer from "../components/classic/Footer";
 
 const Contact = () => {
     return ( 
@@ -35,6 +36,8 @@ const Contact = () => {
                 <h1>Adresse : Bvd VGA, sotuba, korhogo</h1>
             </div>
 
+            <Footer />
+            
         </div>
     );
 }
